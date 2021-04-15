@@ -1,0 +1,13 @@
+With the inability to get an AWS EC2 Instance to let anyone else connect, we are
+currently unable to have anyone other than Spencer, who made the instance, work
+on the project so far.
+
+The EC2 Instance at one point did let us run the give postgresql commands to
+create a database, create a user, and grant the user access, but then after a
+short while made us refresh the connection upon which the whole postgresql
+database appears to be running, but the EC2 instance won't let us reenter the
+postgresql instance. Since then we have not tried to deploy augur just in case
+it would cause some problem because of some unknown connection issue between the
+augur and the database.
+
+Other than these problems, we have come up with a project idea.

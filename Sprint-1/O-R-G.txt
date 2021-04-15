@@ -1,0 +1,13 @@
+This file will include any explanation of obstacles we encountered, reflections, and goals.
+
+Obstacles:
+-Getting a working AWS EC2 Instance to deploy augur to.
+-Getting a postgresql instance running for augur to use.
+-Getting anyone, other than the person who made the EC2 Instance, to be able to connect to the instance.
+
+Reflections:
+-
+
+Goals:
+-To get a completely working Server running and have augur deployed to it.
+-The ability for anyone to be able to connect the server to view augur.
