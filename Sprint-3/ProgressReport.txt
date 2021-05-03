@@ -1,1 +1,9 @@
-By the time of submitting this, we will have decided our project idea will be a heat map visualization of the colors people use with their pull request labels. At this point we will be making a jupyter notebook page that will run all of the code to visualize the heat map, and that the notebook will be connected to a database. Then after this we will need to work on visualizing the heatmap, and having a regular color wheel next to it for comparison of where corresponding colors are on the heatmap.
+	We have decided our project idea will be a heat map visualization of the colors people use with 
+their pull request labels. We will be making a jupyter notebook page that will run all of the code to 
+visualize the heat map, and that the notebook will be connected to a database where it gets the data. 
+	We have made a notebook similar to those in the chaoss/community-reports, as well as a config 
+file that holds json with database credentials. We followed one of the notebooks and simply connected 
+the notebook to the database with the credentials, and have 2 sql queries that were given to us to
+retrieve the data we need from the databse. The next steps for us will be visualizing the data onto a 
+heat map of usage amount and a regular color wheel next to it to show which colors the heat usage is
+corresponding to.
